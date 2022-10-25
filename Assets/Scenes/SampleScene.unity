@@ -1740,7 +1740,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
-  m_LocalRotation: {x: 0.31622776, y: -0.000000028272964, z: 0.000000009424321, w: 0.9486833}
+  m_LocalRotation: {x: 0.31622773, y: 6.5584876e-15, z: -4.258579e-15, w: 0.9486833}
   m_LocalPosition: {x: 4.33, y: 30.01, z: -40}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -5213,7 +5213,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1032030645}
-  m_LocalRotation: {x: 0.31622776, y: -0.000000028272964, z: 0.000000009424321, w: 0.9486833}
+  m_LocalRotation: {x: 0.31622773, y: 6.5584876e-15, z: -4.258579e-15, w: 0.9486833}
   m_LocalPosition: {x: 4.33, y: 30.01, z: -40}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -10446,7 +10446,6 @@ GameObject:
   - component: {fileID: 919132148579159217}
   - component: {fileID: 919132148579159218}
   - component: {fileID: 919132148579159219}
-  - component: {fileID: 919132148579159220}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -10551,21 +10550,6 @@ MonoBehaviour:
   ObiChain: []
   EnemyCounter: 0
   Rope: {fileID: 5803677411954502255, guid: c3af02c77e5d0ea46aab4048f1776b0e, type: 3}
---- !u!114 &919132148579159220
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132148579159213}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60ff66c8db944d0429e403e3ddaffb07, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mask:
-    serializedVersion: 2
-    m_Bits: 64
 --- !u!4 &1031632034716740682
 Transform:
   m_ObjectHideFlags: 0
